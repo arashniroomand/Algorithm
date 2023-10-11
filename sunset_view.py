@@ -1,4 +1,10 @@
 
+# In the code, the function sunsetViews checks the heights of the
+# buildings in the given direction ("East" or "West") and returns the sorted indices
+# of the buildings that can be seen during sunset.
+#
+# Please note that the comment is placed above the function definition to provide an
+# explanation of the code's functionality.
 
 def sunsetViews(buildings, direction):
     final_result = []
@@ -19,13 +25,6 @@ def sunsetViews(buildings, direction):
                 final_result.append(i)
                 max_height = buildings[i]
 
-        # In the code, the function sunsetViews checks the heights of the
-        # buildings in the given direction ("East" or "West") and returns the sorted indices
-        # of the buildings that can be seen during sunset.
-        #
-        # Please note that the comment is placed above the function definition to provide an
-        # explanation of the code's functionality.
-
 
 
         return sorted(final_result)
@@ -38,5 +37,4 @@ def sunsetViews(buildings, direction):
 buildings = [1,2,3,4,5,6]
 arash = sunsetViews(buildings,"West")
 print(arash)
-
 
